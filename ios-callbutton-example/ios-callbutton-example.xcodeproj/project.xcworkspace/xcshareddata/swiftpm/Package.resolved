@@ -1,0 +1,15 @@
+{
+  "originHash" : "f3a76c7fa22bdac53858bb083e1b5256b0d4b003a8fd8e828779d61a2616824c",
+  "pins" : [
+    {
+      "identity" : "mobile-voice-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mtsexolve/mobile-voice-sdk",
+      "state" : {
+        "revision" : "0e779c65dcd50225e0cae18671d66013cc40cf24",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 3
+}

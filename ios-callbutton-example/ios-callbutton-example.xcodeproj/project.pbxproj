@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9250949B2C22B09D0072C672 /* ios_callbutton_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9250949A2C22B09D0072C672 /* ios_callbutton_exampleApp.swift */; };
+		9250949D2C22B09D0072C672 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9250949C2C22B09D0072C672 /* RootView.swift */; };
+		9250949F2C22B09F0072C672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9250949E2C22B09F0072C672 /* Assets.xcassets */; };
+		925094AF2C22B1A40072C672 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925094AE2C22B1A40072C672 /* CallView.swift */; };
+		925094B12C22B1B20072C672 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925094B02C22B1B20072C672 /* AccountView.swift */; };
+		927D29AE2C295DD2008ECA06 /* CallClientWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D29AD2C295DD2008ECA06 /* CallClientWrapper.swift */; };
+		92B286592C299744007E1CBE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B286582C299744007E1CBE /* Utils.swift */; };
+		92F229082C22C39600CA0719 /* AccountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F229042C22C39600CA0719 /* AccountTextField.swift */; };
+		92F229092C22C39600CA0719 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F229052C22C39600CA0719 /* Alert.swift */; };
+		92F2290A2C22C39600CA0719 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F229062C22C39600CA0719 /* Constants.swift */; };
+		A582771C2C62811D0071E981 /* ExolveVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A582771B2C62811D0071E981 /* ExolveVoiceSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		925094972C22B09D0072C672 /* callbutton-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "callbutton-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9250949A2C22B09D0072C672 /* ios_callbutton_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_callbutton_exampleApp.swift; sourceTree = "<group>"; };
+		9250949C2C22B09D0072C672 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9250949E2C22B09F0072C672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925094AE2C22B1A40072C672 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		925094B02C22B1B20072C672 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		927D29AD2C295DD2008ECA06 /* CallClientWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallClientWrapper.swift; sourceTree = "<group>"; };
+		92B286582C299744007E1CBE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		92B2865A2C299CF9007E1CBE /* ios-callbutton-example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-callbutton-example-Bridging-Header.h"; sourceTree = "<group>"; };
+		92F229042C22C39600CA0719 /* AccountTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTextField.swift; sourceTree = "<group>"; };
+		92F229052C22C39600CA0719 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		92F229062C22C39600CA0719 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925094942C22B09D0072C672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A582771C2C62811D0071E981 /* ExolveVoiceSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9250948E2C22B09D0072C672 = {
+			isa = PBXGroup;
+			children = (
+				925094982C22B09D0072C672 /* Products */,
+				925094A82C22B0AA0072C672 /* res */,
+				925094992C22B09D0072C672 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		925094982C22B09D0072C672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925094972C22B09D0072C672 /* callbutton-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925094992C22B09D0072C672 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				927D29AC2C295D95008ECA06 /* core */,
+				92F229072C22C39600CA0719 /* misc */,
+				925094B02C22B1B20072C672 /* AccountView.swift */,
+				925094AE2C22B1A40072C672 /* CallView.swift */,
+				9250949C2C22B09D0072C672 /* RootView.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		925094A82C22B0AA0072C672 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				9250949E2C22B09F0072C672 /* Assets.xcassets */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		927D29AC2C295D95008ECA06 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				927D29AD2C295DD2008ECA06 /* CallClientWrapper.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		92F229072C22C39600CA0719 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				92F229042C22C39600CA0719 /* AccountTextField.swift */,
+				92F229052C22C39600CA0719 /* Alert.swift */,
+				92F229062C22C39600CA0719 /* Constants.swift */,
+				9250949A2C22B09D0072C672 /* ios_callbutton_exampleApp.swift */,
+				92B2865A2C299CF9007E1CBE /* ios-callbutton-example-Bridging-Header.h */,
+				92B286582C299744007E1CBE /* Utils.swift */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925094962C22B09D0072C672 /* callbutton-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925094A52C22B09F0072C672 /* Build configuration list for PBXNativeTarget "callbutton-example" */;
+			buildPhases = (
+				925094932C22B09D0072C672 /* Sources */,
+				925094942C22B09D0072C672 /* Frameworks */,
+				925094952C22B09D0072C672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "callbutton-example";
+			packageProductDependencies = (
+				A582771B2C62811D0071E981 /* ExolveVoiceSDK */,
+			);
+			productName = "ios-callbutton-example";
+			productReference = 925094972C22B09D0072C672 /* callbutton-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9250948F2C22B09D0072C672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					925094962C22B09D0072C672 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+				};
+			};
+			buildConfigurationList = 925094922C22B09D0072C672 /* Build configuration list for PBXProject "ios-callbutton-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9250948E2C22B09D0072C672;
+			packageReferences = (
+				A582771A2C62811D0071E981 /* XCRemoteSwiftPackageReference "mobile-voice-sdk" */,
+			);
+			productRefGroup = 925094982C22B09D0072C672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925094962C22B09D0072C672 /* callbutton-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925094952C22B09D0072C672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9250949F2C22B09F0072C672 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925094932C22B09D0072C672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F229092C22C39600CA0719 /* Alert.swift in Sources */,
+				925094B12C22B1B20072C672 /* AccountView.swift in Sources */,
+				9250949D2C22B09D0072C672 /* RootView.swift in Sources */,
+				9250949B2C22B09D0072C672 /* ios_callbutton_exampleApp.swift in Sources */,
+				92F2290A2C22C39600CA0719 /* Constants.swift in Sources */,
+				92B286592C299744007E1CBE /* Utils.swift in Sources */,
+				925094AF2C22B1A40072C672 /* CallView.swift in Sources */,
+				927D29AE2C295DD2008ECA06 /* CallClientWrapper.swift in Sources */,
+				92F229082C22C39600CA0719 /* AccountTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		925094A32C22B09F0072C672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925094A42C22B09F0072C672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925094A62C22B09F0072C672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KL42TSU837;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-callbutton-example-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallButtonDemo;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for voice calls";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exolve.callbuttondemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = exolve_development;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "src/misc/ios-callbutton-example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925094A72C22B09F0072C672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KL42TSU837;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-callbutton-example-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallButtonDemo;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for voice calls";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exolve.callbuttondemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = exolve_development;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "src/misc/ios-callbutton-example-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925094922C22B09D0072C672 /* Build configuration list for PBXProject "ios-callbutton-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925094A32C22B09F0072C672 /* Debug */,
+				925094A42C22B09F0072C672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925094A52C22B09F0072C672 /* Build configuration list for PBXNativeTarget "callbutton-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925094A62C22B09F0072C672 /* Debug */,
+				925094A72C22B09F0072C672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A582771A2C62811D0071E981 /* XCRemoteSwiftPackageReference "mobile-voice-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mtsexolve/mobile-voice-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A582771B2C62811D0071E981 /* ExolveVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A582771A2C62811D0071E981 /* XCRemoteSwiftPackageReference "mobile-voice-sdk" */;
+			productName = ExolveVoiceSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9250948F2C22B09D0072C672 /* Project object */;
+}
